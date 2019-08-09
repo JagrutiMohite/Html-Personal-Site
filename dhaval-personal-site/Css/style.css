@@ -1,0 +1,193 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+p {
+  font-family: "Montserrat";
+  color: #818f8f;
+}
+
+/* Big headings */
+
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.colored-section {
+  background-color: #EAF6F6;
+  color: #66BFBF;
+}
+.white-section {
+  background-color: #fff;
+}
+
+
+/* navbar */
+.navbar-info {
+    color: #66BFBF;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Buttons */
+
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+/* title section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.title-image {
+  width: 100%;
+  height: 100%;
+  right: 30%;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 5%;
+  bottom: 2%;
+  width: 30%;
+}
+.top-cloud{
+  position: absolute;
+  right: 2%;
+  top: 0;
+  width: 30%;
+}
+.h1-text {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    line-height: 1.8;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+}
+.h2-text {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1.8rem;
+  color: #66BFBF;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* Education */
+
+#education {
+  position: relative;
+}
+
+.fas {
+  color: #66BFBF;
+  margin-bottom: 1rem;
+}
+.fas:hover {
+  color: ##EAF6F6;
+}
+.features-box {
+  padding: 5%;
+}
+.features-title {
+  font-size: 1.5rem;
+}
+
+/* Skills section*/
+
+
+.skills-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Projects */
+#projects {
+  padding: 50px;
+}
+
+.projects-column {
+  padding: 3% 2%;
+}
+
+.projects-text {
+  color: #66BFBF;
+  line-height: 1.5;
+}
+
+
+
+/* footer */
+
+
+.footer-icon {
+  margin: 20px 10px;
+  color: #000;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+  }
+  .bottom-cloud{
+    position: static;
+  }
+  .top-cloud {
+    position: static;
+  }
+  .h1-text {
+    font-size: 4rem;
+    position: relative;
+  }
+  .top-container {
+
+  }
+
+}
+
+
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 120px;
+
+}
+.design {
+  text-decoration: underline;
+}
